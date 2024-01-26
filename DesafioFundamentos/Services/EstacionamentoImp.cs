@@ -57,22 +57,6 @@ namespace DesafioFundamentos.Services
             }
         }
 
-        // public void ListarVeiculos()
-        // {
-        //     if (veiculos.Any())
-        //     {
-        //         Console.WriteLine("\nVEÍCULOS ESTACIONADOS");
-        //         Console.WriteLine($"Quantidade total.....: {veiculos.Count}\n");
-
-        //         for(int i = 0; i < veiculos.Count; i++){
-        //             Console.WriteLine($"{i + 1} | {veiculos[i]}");
-        //         }
-        //     }
-        //     else
-        //     {
-        //         Console.WriteLine("Não há veículos estacionados.\n");
-        //     }
-        // }
         public string ListarVeiculos()
         {
             if (veiculos.Count > 0)

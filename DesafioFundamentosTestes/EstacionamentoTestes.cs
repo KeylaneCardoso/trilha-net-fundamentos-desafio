@@ -56,18 +56,18 @@ public class EstacionamentoTestes
         Assert.Contains("1 | " + placa1, result);
     }
 
-    // [Fact]
-    // public void AtualizarValoresPadroes_DeveAlterarOPrecoInicialPara10EPrecoPorHoraPara5()
-    // {
-    //     // Arrange
-    //     decimal novoPrecoInicial = 10;
-    //     decimal novPprecoPorHora = 5;
+    [Fact]
+    public void AtualizarValoresPadroes_DeveAlterarOPrecoInicialPara10EPrecoPorHoraPara5()
+    {
+        // Arrange
+        decimal novoPrecoInicial = 10;
+        decimal novoPrecoPorHora = 5;
 
-    //     // Act
-    //     _estac.AtualizarValoresPadroes(novoPrecoInicial, novPprecoPorHora); 
+        // Act
+        _estac.AtualizarValoresPadroes(novoPrecoInicial, novoPrecoPorHora); 
 
-    //     // Assert
-    //     Assert.Equal(novoPrecoInicial, _estac.PrecoInicialParaTeste);
-    //     Assert.Equal(novPprecoPorHora, _estac.PrecoPorHoraParaTeste);
-    // }
+        // Assert
+        Assert.Equal(novoPrecoInicial, _estac.PrecoInicialParaTeste);
+        Assert.Equal(novoPrecoPorHora, _estac.PrecoPorHoraParaTeste);
+    }
 }
