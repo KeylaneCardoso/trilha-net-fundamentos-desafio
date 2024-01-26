@@ -38,3 +38,5 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
 
 - O código foi complementado conforme o conteúdo abordado nas aulas. Um método para verificar se a placa já existe foi adicionado no método cadastrar veículo, para evitar a duplicidade de placas.
+
+- Foram adicionados alguns testes unitários no código para realizar a verificação dos métodos criados. Foram adicionados mais dois métodos, um para alterar os preços do estacionamento e o outro para visualizar as principais informações do estacionamento como: Preço inicial, preço por hora e quantidade de veículos estacionados.
